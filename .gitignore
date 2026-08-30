@@ -1,0 +1,9 @@
+target/
+.m2-private/
+.idea/
+.vscode/
+*.iml
+*.log
+.env
+config.local.yml
+hs_err_pid*

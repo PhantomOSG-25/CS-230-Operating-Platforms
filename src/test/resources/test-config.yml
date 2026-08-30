@@ -1,0 +1,20 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 0
+  adminConnectors:
+    - type: http
+      port: 0
+accounts:
+  - username: admin
+    password: test-admin-password
+    roles: [ADMIN, USER]
+  - username: reviewer
+    password: test-reviewer-password
+    roles: [USER]
+seedUsers:
+  - firstName: Avery
+    lastName: Morgan
+    email: avery.morgan@example.invalid
+logging:
+  level: WARN
