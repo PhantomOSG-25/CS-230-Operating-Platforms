@@ -1,0 +1,26 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+accounts:
+  - username: admin
+    password: ${GAMEAUTH_ADMIN_PASSWORD}
+    roles: [ADMIN, USER]
+  - username: reviewer
+    password: ${GAMEAUTH_USER_PASSWORD}
+    roles: [USER]
+
+seedUsers:
+  - firstName: Avery
+    lastName: Morgan
+    email: avery.morgan@example.invalid
+  - firstName: Jordan
+    lastName: Lee
+    email: jordan.lee@example.invalid
+
+logging:
+  level: INFO
