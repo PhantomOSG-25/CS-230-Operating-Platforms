@@ -71,4 +71,3 @@ The original course submission included design documents, diagrams, archives, ge
 - Basic authentication requires TLS outside local development.
 - This repository is a portfolio demonstration, not a production identity provider.
 - No license is granted unless a license file is added later.
-CS-230: Operating Platforms explores the architecture, functionality, and interaction of modern operating systems. Students learn how platforms manage hardware, software, and user processes, with a focus on system-level programming and platform-specific design.
